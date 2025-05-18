@@ -22,26 +22,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(71, 0, 117);
-  background-color: -moz-radial-gradient(
-    circle,
-    rgba(71, 0, 117, 1) 0%,
-    rgba(109, 0, 177, 1) 54%,
-    rgba(124, 0, 255, 1) 100%
-  );
-  background-color: -webkit-radial-gradient(
-    circle,
-    rgba(71, 0, 117, 1) 0%,
-    rgba(109, 0, 177, 1) 54%,
-    rgba(124, 0, 255, 1) 100%
-  );
-  background-color: radial-gradient(
-    circle,
-    rgba(71, 0, 117, 1) 0%,
-    rgba(109, 0, 177, 1) 54%,
-    rgba(124, 0, 255, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#470075",endColorstr="#7c00ff",GradientType=1);
+  background-color: #1d4b75;
 }
 
 code {
