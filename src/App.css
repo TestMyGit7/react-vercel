@@ -1,0 +1,42 @@
+header {
+  margin-bottom: 25px;
+}
+.form-main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 450px;
+  height: 500px;
+  margin: auto;
+  padding: 15px;
+  background-color: #faf0ff;
+  box-shadow: 0 2px 5px #664c6b;
+}
+#todolist-form input {
+  padding-left: 15px;
+  margin-right: 10px;
+  width: 310px;
+  height: 35px;
+  outline: 1px solid #bebebe;
+  background-color: #faf0fa;
+}
+#todolist-form input::placeholder {
+  color: #858585;
+}
+#todolist-form button {
+  width: 100px;
+  height: 35px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #2e6df7;
+  text-transform: uppercase;
+}
+#todolist-form button:active {
+  background-color: #2061ec;
+}
+#todolist-form button i.fa {
+  font-size: 11px;
+}
