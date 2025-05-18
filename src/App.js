@@ -66,7 +66,7 @@ class App extends React.Component {
           <form id="todolist-form" onSubmit={this.addItem}>
             <input
               type="text"
-              placeholder="Enter the text here..."
+              placeholder="Enter your text here..."
               value={this.state.currentItem.text}
               onChange={this.handleInput}
             ></input>
